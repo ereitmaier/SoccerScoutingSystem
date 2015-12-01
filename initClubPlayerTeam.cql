@@ -4,4 +4,3 @@ CREATE
 	(teamA)-[:REPRESENTS {season:'2015-2016'}]->(myc),
 	(goalie1:Player {name:'My Goalie', dob:20000101, position:'Goalie', handedness:'right'}),
 	(goalie1)-[:SELECTED_FOR]->(teamA)
-// Comment
