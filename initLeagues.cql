@@ -1,4 +1,4 @@
-CREATE (t:Timeline),(s1:Season {value:'2014-2015'}), (s2:Season {value:'2015-2016'}),
+CREATE (t:Timeline {name:'Timeline'}),(s1:Season {value:'2014-2015'}), (s2:Season {value:'2015-2016'}),
 	(t)-[:SEASON]->(s1),
 	(t)-[:SEASON]->(s2),
 	(bl:League {id:'bl', name:'BeNe League', season:'2014-2015'}),
